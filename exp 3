@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[100];
+	int i,flag;
+	int l;
+	printf("enter a string to check: \n");
+	scanf("%s",s);
+	l=strlen(s);
+	 if(s[0]=='0' && s[l-1]=='1')
+	{
+		printf("string is accepted");
+	}
+	else
+	{
+		printf("string is not accepted");
+    }
+	return 0;
+}
